@@ -21,7 +21,7 @@ bot = telebot.TeleBot(TOKEN, parse_mode="HTML") # You can set parse_mode by defa
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
 	cid = message.chat.id
-	bot.reply_to(message, "Welcome to AlphA  CryptoPrice Bot, this Bot provides you with Up-to-date Cryptocurrencies Price\n\n Type 'Waves' to get Waves Price OR 'BTC' to get Bitcoin Price and you can do the Same for All Cryptocurrencies Make Sure to Join & Follow Us -: @Alphahunterslnd")
+	bot.reply_to(message, "Welcome to Alpha CryptoPrice Bot, this Bot provides you with Up-to-date Cryptocurrencies Price\n\n Type 'Waves' to get Waves Price OR 'BTC' to get Bitcoin Price and you can do the Same for All Cryptocurrencies Make Sure to Join & Follow Us -: @AlphahuntersInd")
 
 
 
